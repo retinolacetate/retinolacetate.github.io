@@ -1,0 +1,111 @@
+.phone {
+    border: 1px solid black;
+    border-radius: 16px;
+    background-color: #d6e3bc;
+    width: 94px;
+    height: 167px;
+    margin: 0 auto;
+
+}
+.display {
+    border: 1px solid black;
+    border-radius: 16px;
+    background-color: white;
+    height: 82px;
+    width: 78px;
+}
+.time{
+    font-family: Tahoma;
+    font-size: 24px;  
+}
+.button {
+    background-color: #3f3151;
+    width: 15px;
+    height: 13px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+.position-display {
+    position: relative;
+    top:7px;
+    left:7px;
+}
+.position-time {
+    position: relative;
+    text-align: center;
+}
+.position-buttons {
+    position: relative;
+}
+.position-button{
+    position: absolute;
+}
+.position-button:nth-child(1){
+    top:14px;
+    left:14px;
+}
+.position-button:nth-child(2){
+    top:14px;
+    left:38px;
+}
+.position-button:nth-child(3){
+    top:14px;
+    left:62px;
+}
+.position-button:nth-child(4){
+    top:33px;
+    left:14px;
+}
+.position-button:nth-child(5){
+    top:33px;
+    left:38px;
+}
+.position-button:nth-child(6){
+    top:33px;
+    left:62px;
+}
+.position-button:nth-child(7){
+    top:52px;
+    left:14px;
+}
+.position-button:nth-child(8){
+    top:52px;
+    left:38px;
+}
+.position-button:nth-child(9){
+    top:52px;
+    left:62px;
+}
+.transform-display {
+    transform: translate(7px, 7px);
+}
+.transform-time {
+    transform: translateX(px);
+}
+.transform-button:first-child{
+    transform: translate(14px, 14px);
+}
+.transform-button:nth-child(2){
+    transform: translate(38px);
+}
+.transform-button:nth-child(3){
+    transform: translate(62px, -14px);
+}
+.transform-button:nth-child(4){
+    transform: translate(14px, -9px);
+}
+.transform-button:nth-child(5){
+    transform: translate(38px, -23px);
+}
+.transform-button:nth-child(6){
+    transform: translate(62px, -37px);
+}
+.transform-button:nth-child(7){
+    transform: translate(14px, -32px);
+}
+.transform-button:nth-child(8){
+    transform: translate(38px, -46px);
+}
+.transform-button:nth-child(9){
+    transform: translate(62px, -60px);
+}
