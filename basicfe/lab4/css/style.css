@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --test: calc(720 / 1920 * 100vw);
+    --test1: calc(100vw / 1920);
+}
+body {
+    background-color: ghostwhite;
+    padding: calc(40 / 1920 * 100vw) calc(50 / 1920 * 100vw);
+    margin: 10px;
+    font-size: calc(23 / 1920 * 100vw);
+}
+.pic{
+  width: calc(1080 / 1920 * 100vw);
+  height: calc(600 / 1920 * 100vw);
+}
+#change_backgrnd1, .change_backgrnd2{
+  cursor: pointer;
+}
+#add_img, #enlarge_size, #reduce_size, #delete_img{
+  cursor: pointer;
+}
