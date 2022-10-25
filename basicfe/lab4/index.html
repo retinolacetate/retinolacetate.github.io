@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ua">
+    <head>
+        <title>Асланова В. ІК-01</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Vitalina, IK-01, Kyiv, fict"/>
+        <meta name="description" content="basic fe lab#4">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+      <h2>Асланова Віталіна Сергіївна</h2>
+      <p>Дата і місце народження: 22 травня 2003 року, м. Київ</p>
+      <p>Освіта: Козацька гімназія №283 II-III ступенів Деснянського району м. Києва;
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;НТУУ "КПІ", м. Київ</p>
+
+      <h4>Хоббі:</h4>
+      <ul type="circle">
+        <li>малювання</li>
+        <li id="change_backgrnd1" onclick="changeColorsById()">подорожі</li>
+        <li class="change_backgrnd2" onclick="changeColorsQuerySelector()">плавання</li>
+        <li>танці</li>
+      </ul>
+
+      <h4>Улюблені книги:</h4>
+      <ol type="I">
+        <li>Якщо всі кішки в світі зникнуть - Генкі Кавамура</li>
+        <li>1984 - Джордж Оруел</li>
+        <li>Маленький принц - Антуан де Сент-Екзюпері</li>
+        <li>Гордість і упередженість - Джейн Остін</li>
+      </ol>
+
+    <h4>Київ</h4>
+    <p>Київ — столиця України (та також мого серця), одне з найбільших і найстаріших міст Європи.
+      <br>Розташований у середній течії Дніпра, у північній Наддніпрянщині.
+      <br>Політичний, соціально-економічний, транспортний та освітньо-науковий центр країни.
+      <br>Населення — понад 2,8 млн чол. Заснований наприкінці V — початку VI століття. </p>
+
+    <a href="https://kyivcity.gov.ua" target=”_blank”>
+      <img alt="Kyiv" src="https://anga.ua/ifiles/images/kyiv/tsikavi_fakty_pro_kyiv/Screenshot_2(1).png" class="pic"/>
+    </a>
+
+    <figure id="task2">
+      <figcaption>
+        <button type="button" id="add_img" onclick="add()">add</button>
+        <button type="button" id="enlarge_size" onclick="increase()" disabled>enlarge</button>
+        <button type="button" id="reduce_size" onclick="reduce()" disabled>reduce</button>
+        <button type="button" id="delete_img" onclick="remove()" disabled>delete</button>
+      </figcaption>
+    </figure>
+    <script src="js/script.js"></script>
+  </body>
+</html>
