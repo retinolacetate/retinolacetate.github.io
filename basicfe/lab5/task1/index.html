@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Асланова В. ІК-01</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Vitalina, IK-01, Kyiv, fict"/>
+        <meta name="description" content="basic fe lab#5">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+    <form class="form">
+        <div>
+            <label for="fullname">ПІБ</label>
+            <input type="text" name="fullname" id="fullname">
+            <div class="warning-text hidden">ПІБ має бути такого формату: TTTTTT T. T.</div>
+        </div>
+        <div>
+            <label for="variant">Варіант</label>
+            <input type="text" name="variant" id="variant">
+            <div class="warning-text hidden">Варіант має бути такого формату: NN</div>
+        </div>
+        <div>
+            <label for="group">Група</label>
+            <input type="text" name="group" id="group">
+            <div class="warning-text hidden">Група має бути такого формату: TT-NN</div>
+        </div>
+        <div>
+            <label for="phone-number">Номер телефону</label>
+            <input type="text" name="phone-number" id="phone-number">
+            <div class="warning-text hidden">Номер телефону має бути такого формату: (NNN)-NNN-NN-NN</div>
+        </div>
+        <div>
+            <label for="id-card">ID-card</label>
+            <input type="text" name="id-card" id="id-card">
+            <div class="warning-text hidden">ID-card має бути такого формату: TT №NNNNNN</div>
+        </div>
+        <button type="submit">SUBMIT</button>
+    </form>
+    <section id="validOutput" class="hidden">
+        <div id="close"></div>
+        <h2>Your data is valid!</h2>
+        <div>
+            <span>ПІБ:</span>
+            <span id="fullname-validOutput"></span>
+        </div>
+        <div>
+            <span>Варіант:</span>
+            <span id="variant-validOutput"></span>
+        </div>
+        <div>
+            <span>Група:</span>
+            <span id="group-validOutput"></span>
+        </div>
+        <div>
+            <span>Номер телефону:</span>
+            <span id="phone-number-validOutput"></span>
+        </div>
+        <div>
+            <span>ID-card:</span>
+            <span id="id-card-validOutput"></span>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
