@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="text-align: center">
+    <h2>Wellcome to the secret admin page</h2>
+    <p>Here you can add, delete or edit mural database</p>
+    <p>Just fill all empty fields and new mural will be created</p>
+    <p>If you enter only a name - mural with current name will be removed from DB</p>
+    <p>If new descriptions is not match with old - an old will be replaced with new one</p>
+    <form action="" method="post">
+        <label>name</label>
+        <input type="text" name="name" placeholder="enter mural name" required>
+        <label> description </label>
+        <input style="width: 200px;" type="text" name="description" placeholder="enter mural's description" required>
+        <input type="submit" value="send">
+    </form>
+    <button style="position: absolute; right: 10px; top: 10px;" onclick="location.href = '/';">main</button>
+</body>
+</html>
